@@ -1,3 +1,8 @@
+provider "aws" {
+  region = var.region
+}
+
+
 locals {
   security_group_enabled = var.security_group_enabled
   name = var.name
