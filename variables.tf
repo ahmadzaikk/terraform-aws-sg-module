@@ -3,6 +3,11 @@ variable "vpc_id" {
   description = "The VPC ID where Security Group will be created."
 }
 
+variable "region" {
+  type        = string
+  description = "The VPC ID where Security Group will be created."
+}
+
 variable "security_group_enabled" {
   type        = bool
   default     = true
